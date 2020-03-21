@@ -27,8 +27,7 @@ class RouletteGun extends React.Component {
                 spinningTheChamber: false
             })
         }, 2000)
-    
-}
+    }
 
     clearTimer() {
          clearTimeout(this.timeout);
